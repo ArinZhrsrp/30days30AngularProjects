@@ -1,1 +1,17 @@
+/* src/styles.scss */
 /* You can add global styles to this file, and also import other style files */
+
+/* Global reset */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* Optional: Add smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
